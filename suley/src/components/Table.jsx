@@ -59,7 +59,7 @@ function Table() {
         </thead>
         <tbody>
           {filteredData.map((item) => (
-            <Item key={item.id} item={item} setInform={setInform} />
+            <Item key={item.id} item={item} setInform={setInform} setFilteredData={setFilteredData} />
           ))}
         </tbody>
       </table>

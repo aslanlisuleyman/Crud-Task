@@ -1,9 +1,9 @@
 
 import React from 'react';
 
-function Item({ item, setInform }) {
+function Item({ item, setFilteredData }) {
   const handleDelete = () => {
-    setInform((deleted) => deleted.filter((i) => i.id !== item.id));
+    setFilteredData((deleted) => deleted.filter((i) => i.id !== item.id));
   };
 
   return (
