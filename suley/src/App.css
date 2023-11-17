@@ -1,0 +1,47 @@
+.table{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+.tr{
+  width: 80%;
+}
+.header{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.header input{
+background-color: rgb(165, 165, 165);
+border-radius: 10px;
+}
+.header button{
+  border-radius: 10px;
+  color: white;
+  background-color: blue;
+}
+
+.add{
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
+
+.add input{
+  background-color: rgb(255, 85, 85);
+  border-radius: 10px;
+  color: white;
+  height: 35px;
+  }
+  .add button{
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(31, 137, 12);
+    height: 30px;
+    width: 60px;
+  }
+
+  input::placeholder{
+    color: white;
+  }
